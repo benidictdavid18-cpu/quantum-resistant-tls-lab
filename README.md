@@ -17,7 +17,7 @@
 - oqs-provider: github.com/open-quantum-safe/oqs-provider
 
 ## Build Status
-- [ ] liboqs build
+- [x] liboqs build
 - [ ] oqs-provider build
 - [ ] TLS server running
 - [ ] Baseline pcap captured
