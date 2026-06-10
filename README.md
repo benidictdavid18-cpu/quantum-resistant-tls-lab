@@ -18,7 +18,7 @@
 
 ## Build Status
 - [x] liboqs build
-- [ ] oqs-provider build
+- [x] oqs-provider build
 - [ ] TLS server running
 - [ ] Baseline pcap captured
 - [ ] Hybrid pcap captured
