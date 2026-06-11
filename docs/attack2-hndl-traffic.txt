@@ -1,0 +1,29 @@
+Connecting to ::1
+Can't use SSL_get_servername
+depth=0 CN=pqc-tls-lab
+verify error:num=18:self-signed certificate
+verify return:1
+depth=0 CN=pqc-tls-lab
+verify return:1
+4097A326CE7F0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+4097A326CE7F0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2804:
+4057AADFC77F0000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling connect()
+4057AADFC77F0000:error:10000067:BIO routines:BIO_connect:connect error:../crypto/bio/bio_sock2.c:185:
+4057AADFC77F0000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling connect()
+4057AADFC77F0000:error:10000067:BIO routines:BIO_connect:connect error:../crypto/bio/bio_sock2.c:185:
+connect:errno=111
+40C728E39A7F0000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling connect()
+40C728E39A7F0000:error:10000067:BIO routines:BIO_connect:connect error:../crypto/bio/bio_sock2.c:185:
+40C728E39A7F0000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling connect()
+40C728E39A7F0000:error:10000067:BIO routines:BIO_connect:connect error:../crypto/bio/bio_sock2.c:185:
+connect:errno=111
+403747B6C47F0000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling connect()
+403747B6C47F0000:error:10000067:BIO routines:BIO_connect:connect error:../crypto/bio/bio_sock2.c:185:
+403747B6C47F0000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling connect()
+403747B6C47F0000:error:10000067:BIO routines:BIO_connect:connect error:../crypto/bio/bio_sock2.c:185:
+connect:errno=111
+4037E9A3877F0000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling connect()
+4037E9A3877F0000:error:10000067:BIO routines:BIO_connect:connect error:../crypto/bio/bio_sock2.c:185:
+4037E9A3877F0000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling connect()
+4037E9A3877F0000:error:10000067:BIO routines:BIO_connect:connect error:../crypto/bio/bio_sock2.c:185:
+connect:errno=111
