@@ -1,0 +1,68 @@
+Call to SSL_CONF_cmd(-groups, kyber768) failed
+4077AD6DCA7F0000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling connect()
+4077AD6DCA7F0000:error:10000067:BIO routines:BIO_connect:connect error:../crypto/bio/bio_sock2.c:185:
+4077AD6DCA7F0000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling connect()
+4077AD6DCA7F0000:error:10000067:BIO routines:BIO_connect:connect error:../crypto/bio/bio_sock2.c:185:
+connect:errno=111
+Connecting to ::1
+Can't use SSL_get_servername
+depth=0 CN=expired-pqc-lab
+verify error:num=18:self-signed certificate
+40D7E9CD737F0000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:../ssl/statem/statem_clnt.c:2125:
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=expired-pqc-lab
+   i:CN=expired-pqc-lab
+   a:PKEY: ML-DSA-65, 15616 (bit); sigalg: ML-DSA-65
+   v:NotBefore: Jan  1 00:00:00 2023 GMT; NotAfter: Jan  2 00:00:00 2023 GMT
+---
+no peer certificate available
+---
+No client certificate CA names sent
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 6756 bytes and written 1551 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+40D7E9CD737F0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2804:
+Connecting to ::1
+Can't use SSL_get_servername
+depth=0 CN=expired-pqc-lab
+verify error:num=18:self-signed certificate
+409748B0B77F0000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:../ssl/statem/statem_clnt.c:2125:
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=expired-pqc-lab
+   i:CN=expired-pqc-lab
+   a:PKEY: ML-DSA-65, 15616 (bit); sigalg: ML-DSA-65
+   v:NotBefore: Jan  1 00:00:00 2023 GMT; NotAfter: Jan  2 00:00:00 2023 GMT
+---
+no peer certificate available
+---
+No client certificate CA names sent
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 6756 bytes and written 1551 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+409748B0B77F0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2804:
