@@ -1,0 +1,32 @@
+
+Testing Classical_X25519...
+  Run 1: 15.47ms
+  Run 2: 16.13ms
+  Run 3: 16.84ms
+  Run 4: 16.58ms
+  Run 5: 15.98ms
+  Run 6: 15.37ms
+  Run 7: 15.22ms
+  Run 8: 16.28ms
+  Run 9: 16.67ms
+  Run 10: 17.58ms
+
+Testing Hybrid_X25519_MLKEM768...
+  Run 1: 29.63ms
+  Run 2: 28.39ms
+  Run 3: 30.42ms
+  Run 4: 28.32ms
+  Run 5: 28.08ms
+  Run 6: 27.53ms
+  Run 7: 27.43ms
+  Run 8: 29.72ms
+  Run 9: 27.94ms
+  Run 10: 28.26ms
+
+=== TIMING RESULTS ===
+Classical_X25519: avg=16.21ms min=15.22ms max=17.58ms
+Hybrid_X25519_MLKEM768: avg=28.57ms min=27.43ms max=30.42ms
+
+Results saved to docs/attack4-timing-results.json
+Process 4723 dead!
+Process 4723 detected
