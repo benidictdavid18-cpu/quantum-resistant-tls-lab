@@ -1,0 +1,610 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=classical-tls-lab
+   i:CN=classical-tls-lab
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jun 10 06:05:37 2026 GMT; NotAfter: Jun 10 06:05:37 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGTCCAwGgAwIBAgIUX8F30TWeou32BwIL73sN7r8oblIwDQYJKoZIhvcNAQEL
+BQAwHDEaMBgGA1UEAwwRY2xhc3NpY2FsLXRscy1sYWIwHhcNMjYwNjEwMDYwNTM3
+WhcNMjcwNjEwMDYwNTM3WjAcMRowGAYDVQQDDBFjbGFzc2ljYWwtdGxzLWxhYjCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMMsG/xLljxoZ+A394VOjFW7
+Hko5D8GF9YSbPO9bBv4aQ/n2nFk4f/Gu0KtAw/OWRRXCpQVUpiYWSVzt90KQap9D
+gG9q2Ew26/Uun/5aBsBBPU84FM8196kJA+GWb00iR2aWWTr5sVXFW2lZlFRPeEPm
+zEXIr9oX3OyxgCNWruE+6UOWvTrw2NSz/IzNEluc4mJIToVgQV87yw13YugQ2CSg
+NZeDupAZVVS2SHAaGjEE69+ZhoPHZSZzSc0yCrhQQwPtStRbNbrFCc769dm7yATb
+3n3o5QoAyxp/b/wtOfqb2FYkpbJs9oiptCwWz+7NOilrrmel3WBAfY4Y/j46ySuD
+30Vfk+isiIJJ/pW1v0TTblj2+v5r+4ph0tF1UavnG22o/HolyXDAS/8Fx1mWNGe4
+gY8KtWFSlmfVb1Iimz4H46+VvzbH6oQ8GQ0bQsr62XUFRy/Fr9GRUynryBAgIWJu
+FthQFRdMW8bw7iipIrKxk+aB1QW5LMwOKtoamPUjeWAgEoU9+gjBD+3pEGbEtynG
+1V1yen8jkyk8nb4AC3obVCJBJPEeg0CHRD0vKqUIyV73LyF/beHvGVnPtoFn/bwg
+yJwa3GXbSfodiQhVig2BF0FXThSBXWrgM2IMUhN/wEuSpGB5tMVGGapJE28o/9aY
+78k4tQjqE+lxKr3hdcDLAgMBAAGjUzBRMB0GA1UdDgQWBBRVzmbq7ojpxCZs56OE
+rLF21PcvEjAfBgNVHSMEGDAWgBRVzmbq7ojpxCZs56OErLF21PcvEjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBtWRsG8+NPha9BzHbq+CPlTvaz
+fJ2fsDLiDAoOTLX94aBs9zdhbz6OhslwShM5fSaU9jdMBK4ejCdJJC5ytQbS1it4
+gFPI7v47+SUhyZ30yJGvARYP8r7W5WBJI7YqINv5Rpz+4TFA+ztTD2MW7WQ8vc5g
+n01wBOI+oRpIw6VDh6qqiAM+z98xLQ8rZN05jJDnnU3EGIqd+SBqV5HIHMiWO2Z7
+RLZYLudVplCVPpAvnU75IiG7DwaMtDMwbYkgVaoERWsRLeubmD7MYYyEQWl8FoOz
+ksvnzBT3fwlaAdCjZam8Izn08PcyZ4D1LIjb3+aQoYEiz7wZkF3rR3ukVYCCtUJy
+8Jl5TPPfxOY4tZ6Y2kRDW04xCay0EDfUZJfGUYLfyhmeK9KVOXJ+QRcRd/YUgezs
+kTbSZX9t6/UXIjwD5ZA0XY1ayQ4eQ+GhpyIIORs6GVQcLu1iu2dSU02KtEpnV8Kp
+tEIyNJ7JvzGza+3B9W5Cj1ezZI8MDPBO0z/+u7tzlEanerpkyppCj1k5pfHK1nZg
+rAsLONv4xUVKCxT8KOPkmJL6ftfJa+Pzu+0s0EHVK8HcLOjD83MN8HAZH8xZ5a4M
+TSbGF/e+e4+P0yukwVGOI0VLzt3j/VFtmhV4e8+Dbk1mmYfq0OcSmuSaj29HAHqv
+FejX/zql46qxuGbj9A==
+-----END CERTIFICATE-----
+subject=CN=classical-tls-lab
+issuer=CN=classical-tls-lab
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 3209 bytes and written 1540 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 4096 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+Run 1: 41ms
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=classical-tls-lab
+   i:CN=classical-tls-lab
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jun 10 06:05:37 2026 GMT; NotAfter: Jun 10 06:05:37 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGTCCAwGgAwIBAgIUX8F30TWeou32BwIL73sN7r8oblIwDQYJKoZIhvcNAQEL
+BQAwHDEaMBgGA1UEAwwRY2xhc3NpY2FsLXRscy1sYWIwHhcNMjYwNjEwMDYwNTM3
+WhcNMjcwNjEwMDYwNTM3WjAcMRowGAYDVQQDDBFjbGFzc2ljYWwtdGxzLWxhYjCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMMsG/xLljxoZ+A394VOjFW7
+Hko5D8GF9YSbPO9bBv4aQ/n2nFk4f/Gu0KtAw/OWRRXCpQVUpiYWSVzt90KQap9D
+gG9q2Ew26/Uun/5aBsBBPU84FM8196kJA+GWb00iR2aWWTr5sVXFW2lZlFRPeEPm
+zEXIr9oX3OyxgCNWruE+6UOWvTrw2NSz/IzNEluc4mJIToVgQV87yw13YugQ2CSg
+NZeDupAZVVS2SHAaGjEE69+ZhoPHZSZzSc0yCrhQQwPtStRbNbrFCc769dm7yATb
+3n3o5QoAyxp/b/wtOfqb2FYkpbJs9oiptCwWz+7NOilrrmel3WBAfY4Y/j46ySuD
+30Vfk+isiIJJ/pW1v0TTblj2+v5r+4ph0tF1UavnG22o/HolyXDAS/8Fx1mWNGe4
+gY8KtWFSlmfVb1Iimz4H46+VvzbH6oQ8GQ0bQsr62XUFRy/Fr9GRUynryBAgIWJu
+FthQFRdMW8bw7iipIrKxk+aB1QW5LMwOKtoamPUjeWAgEoU9+gjBD+3pEGbEtynG
+1V1yen8jkyk8nb4AC3obVCJBJPEeg0CHRD0vKqUIyV73LyF/beHvGVnPtoFn/bwg
+yJwa3GXbSfodiQhVig2BF0FXThSBXWrgM2IMUhN/wEuSpGB5tMVGGapJE28o/9aY
+78k4tQjqE+lxKr3hdcDLAgMBAAGjUzBRMB0GA1UdDgQWBBRVzmbq7ojpxCZs56OE
+rLF21PcvEjAfBgNVHSMEGDAWgBRVzmbq7ojpxCZs56OErLF21PcvEjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBtWRsG8+NPha9BzHbq+CPlTvaz
+fJ2fsDLiDAoOTLX94aBs9zdhbz6OhslwShM5fSaU9jdMBK4ejCdJJC5ytQbS1it4
+gFPI7v47+SUhyZ30yJGvARYP8r7W5WBJI7YqINv5Rpz+4TFA+ztTD2MW7WQ8vc5g
+n01wBOI+oRpIw6VDh6qqiAM+z98xLQ8rZN05jJDnnU3EGIqd+SBqV5HIHMiWO2Z7
+RLZYLudVplCVPpAvnU75IiG7DwaMtDMwbYkgVaoERWsRLeubmD7MYYyEQWl8FoOz
+ksvnzBT3fwlaAdCjZam8Izn08PcyZ4D1LIjb3+aQoYEiz7wZkF3rR3ukVYCCtUJy
+8Jl5TPPfxOY4tZ6Y2kRDW04xCay0EDfUZJfGUYLfyhmeK9KVOXJ+QRcRd/YUgezs
+kTbSZX9t6/UXIjwD5ZA0XY1ayQ4eQ+GhpyIIORs6GVQcLu1iu2dSU02KtEpnV8Kp
+tEIyNJ7JvzGza+3B9W5Cj1ezZI8MDPBO0z/+u7tzlEanerpkyppCj1k5pfHK1nZg
+rAsLONv4xUVKCxT8KOPkmJL6ftfJa+Pzu+0s0EHVK8HcLOjD83MN8HAZH8xZ5a4M
+TSbGF/e+e4+P0yukwVGOI0VLzt3j/VFtmhV4e8+Dbk1mmYfq0OcSmuSaj29HAHqv
+FejX/zql46qxuGbj9A==
+-----END CERTIFICATE-----
+subject=CN=classical-tls-lab
+issuer=CN=classical-tls-lab
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 3209 bytes and written 1540 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 4096 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+Run 2: 24ms
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=classical-tls-lab
+   i:CN=classical-tls-lab
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jun 10 06:05:37 2026 GMT; NotAfter: Jun 10 06:05:37 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGTCCAwGgAwIBAgIUX8F30TWeou32BwIL73sN7r8oblIwDQYJKoZIhvcNAQEL
+BQAwHDEaMBgGA1UEAwwRY2xhc3NpY2FsLXRscy1sYWIwHhcNMjYwNjEwMDYwNTM3
+WhcNMjcwNjEwMDYwNTM3WjAcMRowGAYDVQQDDBFjbGFzc2ljYWwtdGxzLWxhYjCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMMsG/xLljxoZ+A394VOjFW7
+Hko5D8GF9YSbPO9bBv4aQ/n2nFk4f/Gu0KtAw/OWRRXCpQVUpiYWSVzt90KQap9D
+gG9q2Ew26/Uun/5aBsBBPU84FM8196kJA+GWb00iR2aWWTr5sVXFW2lZlFRPeEPm
+zEXIr9oX3OyxgCNWruE+6UOWvTrw2NSz/IzNEluc4mJIToVgQV87yw13YugQ2CSg
+NZeDupAZVVS2SHAaGjEE69+ZhoPHZSZzSc0yCrhQQwPtStRbNbrFCc769dm7yATb
+3n3o5QoAyxp/b/wtOfqb2FYkpbJs9oiptCwWz+7NOilrrmel3WBAfY4Y/j46ySuD
+30Vfk+isiIJJ/pW1v0TTblj2+v5r+4ph0tF1UavnG22o/HolyXDAS/8Fx1mWNGe4
+gY8KtWFSlmfVb1Iimz4H46+VvzbH6oQ8GQ0bQsr62XUFRy/Fr9GRUynryBAgIWJu
+FthQFRdMW8bw7iipIrKxk+aB1QW5LMwOKtoamPUjeWAgEoU9+gjBD+3pEGbEtynG
+1V1yen8jkyk8nb4AC3obVCJBJPEeg0CHRD0vKqUIyV73LyF/beHvGVnPtoFn/bwg
+yJwa3GXbSfodiQhVig2BF0FXThSBXWrgM2IMUhN/wEuSpGB5tMVGGapJE28o/9aY
+78k4tQjqE+lxKr3hdcDLAgMBAAGjUzBRMB0GA1UdDgQWBBRVzmbq7ojpxCZs56OE
+rLF21PcvEjAfBgNVHSMEGDAWgBRVzmbq7ojpxCZs56OErLF21PcvEjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBtWRsG8+NPha9BzHbq+CPlTvaz
+fJ2fsDLiDAoOTLX94aBs9zdhbz6OhslwShM5fSaU9jdMBK4ejCdJJC5ytQbS1it4
+gFPI7v47+SUhyZ30yJGvARYP8r7W5WBJI7YqINv5Rpz+4TFA+ztTD2MW7WQ8vc5g
+n01wBOI+oRpIw6VDh6qqiAM+z98xLQ8rZN05jJDnnU3EGIqd+SBqV5HIHMiWO2Z7
+RLZYLudVplCVPpAvnU75IiG7DwaMtDMwbYkgVaoERWsRLeubmD7MYYyEQWl8FoOz
+ksvnzBT3fwlaAdCjZam8Izn08PcyZ4D1LIjb3+aQoYEiz7wZkF3rR3ukVYCCtUJy
+8Jl5TPPfxOY4tZ6Y2kRDW04xCay0EDfUZJfGUYLfyhmeK9KVOXJ+QRcRd/YUgezs
+kTbSZX9t6/UXIjwD5ZA0XY1ayQ4eQ+GhpyIIORs6GVQcLu1iu2dSU02KtEpnV8Kp
+tEIyNJ7JvzGza+3B9W5Cj1ezZI8MDPBO0z/+u7tzlEanerpkyppCj1k5pfHK1nZg
+rAsLONv4xUVKCxT8KOPkmJL6ftfJa+Pzu+0s0EHVK8HcLOjD83MN8HAZH8xZ5a4M
+TSbGF/e+e4+P0yukwVGOI0VLzt3j/VFtmhV4e8+Dbk1mmYfq0OcSmuSaj29HAHqv
+FejX/zql46qxuGbj9A==
+-----END CERTIFICATE-----
+subject=CN=classical-tls-lab
+issuer=CN=classical-tls-lab
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 3209 bytes and written 1540 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 4096 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+Run 3: 26ms
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=classical-tls-lab
+   i:CN=classical-tls-lab
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jun 10 06:05:37 2026 GMT; NotAfter: Jun 10 06:05:37 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGTCCAwGgAwIBAgIUX8F30TWeou32BwIL73sN7r8oblIwDQYJKoZIhvcNAQEL
+BQAwHDEaMBgGA1UEAwwRY2xhc3NpY2FsLXRscy1sYWIwHhcNMjYwNjEwMDYwNTM3
+WhcNMjcwNjEwMDYwNTM3WjAcMRowGAYDVQQDDBFjbGFzc2ljYWwtdGxzLWxhYjCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMMsG/xLljxoZ+A394VOjFW7
+Hko5D8GF9YSbPO9bBv4aQ/n2nFk4f/Gu0KtAw/OWRRXCpQVUpiYWSVzt90KQap9D
+gG9q2Ew26/Uun/5aBsBBPU84FM8196kJA+GWb00iR2aWWTr5sVXFW2lZlFRPeEPm
+zEXIr9oX3OyxgCNWruE+6UOWvTrw2NSz/IzNEluc4mJIToVgQV87yw13YugQ2CSg
+NZeDupAZVVS2SHAaGjEE69+ZhoPHZSZzSc0yCrhQQwPtStRbNbrFCc769dm7yATb
+3n3o5QoAyxp/b/wtOfqb2FYkpbJs9oiptCwWz+7NOilrrmel3WBAfY4Y/j46ySuD
+30Vfk+isiIJJ/pW1v0TTblj2+v5r+4ph0tF1UavnG22o/HolyXDAS/8Fx1mWNGe4
+gY8KtWFSlmfVb1Iimz4H46+VvzbH6oQ8GQ0bQsr62XUFRy/Fr9GRUynryBAgIWJu
+FthQFRdMW8bw7iipIrKxk+aB1QW5LMwOKtoamPUjeWAgEoU9+gjBD+3pEGbEtynG
+1V1yen8jkyk8nb4AC3obVCJBJPEeg0CHRD0vKqUIyV73LyF/beHvGVnPtoFn/bwg
+yJwa3GXbSfodiQhVig2BF0FXThSBXWrgM2IMUhN/wEuSpGB5tMVGGapJE28o/9aY
+78k4tQjqE+lxKr3hdcDLAgMBAAGjUzBRMB0GA1UdDgQWBBRVzmbq7ojpxCZs56OE
+rLF21PcvEjAfBgNVHSMEGDAWgBRVzmbq7ojpxCZs56OErLF21PcvEjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBtWRsG8+NPha9BzHbq+CPlTvaz
+fJ2fsDLiDAoOTLX94aBs9zdhbz6OhslwShM5fSaU9jdMBK4ejCdJJC5ytQbS1it4
+gFPI7v47+SUhyZ30yJGvARYP8r7W5WBJI7YqINv5Rpz+4TFA+ztTD2MW7WQ8vc5g
+n01wBOI+oRpIw6VDh6qqiAM+z98xLQ8rZN05jJDnnU3EGIqd+SBqV5HIHMiWO2Z7
+RLZYLudVplCVPpAvnU75IiG7DwaMtDMwbYkgVaoERWsRLeubmD7MYYyEQWl8FoOz
+ksvnzBT3fwlaAdCjZam8Izn08PcyZ4D1LIjb3+aQoYEiz7wZkF3rR3ukVYCCtUJy
+8Jl5TPPfxOY4tZ6Y2kRDW04xCay0EDfUZJfGUYLfyhmeK9KVOXJ+QRcRd/YUgezs
+kTbSZX9t6/UXIjwD5ZA0XY1ayQ4eQ+GhpyIIORs6GVQcLu1iu2dSU02KtEpnV8Kp
+tEIyNJ7JvzGza+3B9W5Cj1ezZI8MDPBO0z/+u7tzlEanerpkyppCj1k5pfHK1nZg
+rAsLONv4xUVKCxT8KOPkmJL6ftfJa+Pzu+0s0EHVK8HcLOjD83MN8HAZH8xZ5a4M
+TSbGF/e+e4+P0yukwVGOI0VLzt3j/VFtmhV4e8+Dbk1mmYfq0OcSmuSaj29HAHqv
+FejX/zql46qxuGbj9A==
+-----END CERTIFICATE-----
+subject=CN=classical-tls-lab
+issuer=CN=classical-tls-lab
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 3209 bytes and written 1540 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 4096 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+Run 4: 25ms
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=classical-tls-lab
+   i:CN=classical-tls-lab
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jun 10 06:05:37 2026 GMT; NotAfter: Jun 10 06:05:37 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGTCCAwGgAwIBAgIUX8F30TWeou32BwIL73sN7r8oblIwDQYJKoZIhvcNAQEL
+BQAwHDEaMBgGA1UEAwwRY2xhc3NpY2FsLXRscy1sYWIwHhcNMjYwNjEwMDYwNTM3
+WhcNMjcwNjEwMDYwNTM3WjAcMRowGAYDVQQDDBFjbGFzc2ljYWwtdGxzLWxhYjCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMMsG/xLljxoZ+A394VOjFW7
+Hko5D8GF9YSbPO9bBv4aQ/n2nFk4f/Gu0KtAw/OWRRXCpQVUpiYWSVzt90KQap9D
+gG9q2Ew26/Uun/5aBsBBPU84FM8196kJA+GWb00iR2aWWTr5sVXFW2lZlFRPeEPm
+zEXIr9oX3OyxgCNWruE+6UOWvTrw2NSz/IzNEluc4mJIToVgQV87yw13YugQ2CSg
+NZeDupAZVVS2SHAaGjEE69+ZhoPHZSZzSc0yCrhQQwPtStRbNbrFCc769dm7yATb
+3n3o5QoAyxp/b/wtOfqb2FYkpbJs9oiptCwWz+7NOilrrmel3WBAfY4Y/j46ySuD
+30Vfk+isiIJJ/pW1v0TTblj2+v5r+4ph0tF1UavnG22o/HolyXDAS/8Fx1mWNGe4
+gY8KtWFSlmfVb1Iimz4H46+VvzbH6oQ8GQ0bQsr62XUFRy/Fr9GRUynryBAgIWJu
+FthQFRdMW8bw7iipIrKxk+aB1QW5LMwOKtoamPUjeWAgEoU9+gjBD+3pEGbEtynG
+1V1yen8jkyk8nb4AC3obVCJBJPEeg0CHRD0vKqUIyV73LyF/beHvGVnPtoFn/bwg
+yJwa3GXbSfodiQhVig2BF0FXThSBXWrgM2IMUhN/wEuSpGB5tMVGGapJE28o/9aY
+78k4tQjqE+lxKr3hdcDLAgMBAAGjUzBRMB0GA1UdDgQWBBRVzmbq7ojpxCZs56OE
+rLF21PcvEjAfBgNVHSMEGDAWgBRVzmbq7ojpxCZs56OErLF21PcvEjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBtWRsG8+NPha9BzHbq+CPlTvaz
+fJ2fsDLiDAoOTLX94aBs9zdhbz6OhslwShM5fSaU9jdMBK4ejCdJJC5ytQbS1it4
+gFPI7v47+SUhyZ30yJGvARYP8r7W5WBJI7YqINv5Rpz+4TFA+ztTD2MW7WQ8vc5g
+n01wBOI+oRpIw6VDh6qqiAM+z98xLQ8rZN05jJDnnU3EGIqd+SBqV5HIHMiWO2Z7
+RLZYLudVplCVPpAvnU75IiG7DwaMtDMwbYkgVaoERWsRLeubmD7MYYyEQWl8FoOz
+ksvnzBT3fwlaAdCjZam8Izn08PcyZ4D1LIjb3+aQoYEiz7wZkF3rR3ukVYCCtUJy
+8Jl5TPPfxOY4tZ6Y2kRDW04xCay0EDfUZJfGUYLfyhmeK9KVOXJ+QRcRd/YUgezs
+kTbSZX9t6/UXIjwD5ZA0XY1ayQ4eQ+GhpyIIORs6GVQcLu1iu2dSU02KtEpnV8Kp
+tEIyNJ7JvzGza+3B9W5Cj1ezZI8MDPBO0z/+u7tzlEanerpkyppCj1k5pfHK1nZg
+rAsLONv4xUVKCxT8KOPkmJL6ftfJa+Pzu+0s0EHVK8HcLOjD83MN8HAZH8xZ5a4M
+TSbGF/e+e4+P0yukwVGOI0VLzt3j/VFtmhV4e8+Dbk1mmYfq0OcSmuSaj29HAHqv
+FejX/zql46qxuGbj9A==
+-----END CERTIFICATE-----
+subject=CN=classical-tls-lab
+issuer=CN=classical-tls-lab
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 3209 bytes and written 1540 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 4096 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+Run 5: 22ms
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=classical-tls-lab
+   i:CN=classical-tls-lab
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jun 10 06:05:37 2026 GMT; NotAfter: Jun 10 06:05:37 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGTCCAwGgAwIBAgIUX8F30TWeou32BwIL73sN7r8oblIwDQYJKoZIhvcNAQEL
+BQAwHDEaMBgGA1UEAwwRY2xhc3NpY2FsLXRscy1sYWIwHhcNMjYwNjEwMDYwNTM3
+WhcNMjcwNjEwMDYwNTM3WjAcMRowGAYDVQQDDBFjbGFzc2ljYWwtdGxzLWxhYjCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMMsG/xLljxoZ+A394VOjFW7
+Hko5D8GF9YSbPO9bBv4aQ/n2nFk4f/Gu0KtAw/OWRRXCpQVUpiYWSVzt90KQap9D
+gG9q2Ew26/Uun/5aBsBBPU84FM8196kJA+GWb00iR2aWWTr5sVXFW2lZlFRPeEPm
+zEXIr9oX3OyxgCNWruE+6UOWvTrw2NSz/IzNEluc4mJIToVgQV87yw13YugQ2CSg
+NZeDupAZVVS2SHAaGjEE69+ZhoPHZSZzSc0yCrhQQwPtStRbNbrFCc769dm7yATb
+3n3o5QoAyxp/b/wtOfqb2FYkpbJs9oiptCwWz+7NOilrrmel3WBAfY4Y/j46ySuD
+30Vfk+isiIJJ/pW1v0TTblj2+v5r+4ph0tF1UavnG22o/HolyXDAS/8Fx1mWNGe4
+gY8KtWFSlmfVb1Iimz4H46+VvzbH6oQ8GQ0bQsr62XUFRy/Fr9GRUynryBAgIWJu
+FthQFRdMW8bw7iipIrKxk+aB1QW5LMwOKtoamPUjeWAgEoU9+gjBD+3pEGbEtynG
+1V1yen8jkyk8nb4AC3obVCJBJPEeg0CHRD0vKqUIyV73LyF/beHvGVnPtoFn/bwg
+yJwa3GXbSfodiQhVig2BF0FXThSBXWrgM2IMUhN/wEuSpGB5tMVGGapJE28o/9aY
+78k4tQjqE+lxKr3hdcDLAgMBAAGjUzBRMB0GA1UdDgQWBBRVzmbq7ojpxCZs56OE
+rLF21PcvEjAfBgNVHSMEGDAWgBRVzmbq7ojpxCZs56OErLF21PcvEjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBtWRsG8+NPha9BzHbq+CPlTvaz
+fJ2fsDLiDAoOTLX94aBs9zdhbz6OhslwShM5fSaU9jdMBK4ejCdJJC5ytQbS1it4
+gFPI7v47+SUhyZ30yJGvARYP8r7W5WBJI7YqINv5Rpz+4TFA+ztTD2MW7WQ8vc5g
+n01wBOI+oRpIw6VDh6qqiAM+z98xLQ8rZN05jJDnnU3EGIqd+SBqV5HIHMiWO2Z7
+RLZYLudVplCVPpAvnU75IiG7DwaMtDMwbYkgVaoERWsRLeubmD7MYYyEQWl8FoOz
+ksvnzBT3fwlaAdCjZam8Izn08PcyZ4D1LIjb3+aQoYEiz7wZkF3rR3ukVYCCtUJy
+8Jl5TPPfxOY4tZ6Y2kRDW04xCay0EDfUZJfGUYLfyhmeK9KVOXJ+QRcRd/YUgezs
+kTbSZX9t6/UXIjwD5ZA0XY1ayQ4eQ+GhpyIIORs6GVQcLu1iu2dSU02KtEpnV8Kp
+tEIyNJ7JvzGza+3B9W5Cj1ezZI8MDPBO0z/+u7tzlEanerpkyppCj1k5pfHK1nZg
+rAsLONv4xUVKCxT8KOPkmJL6ftfJa+Pzu+0s0EHVK8HcLOjD83MN8HAZH8xZ5a4M
+TSbGF/e+e4+P0yukwVGOI0VLzt3j/VFtmhV4e8+Dbk1mmYfq0OcSmuSaj29HAHqv
+FejX/zql46qxuGbj9A==
+-----END CERTIFICATE-----
+subject=CN=classical-tls-lab
+issuer=CN=classical-tls-lab
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 3209 bytes and written 1540 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 4096 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+Run 6: 23ms
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=classical-tls-lab
+   i:CN=classical-tls-lab
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jun 10 06:05:37 2026 GMT; NotAfter: Jun 10 06:05:37 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGTCCAwGgAwIBAgIUX8F30TWeou32BwIL73sN7r8oblIwDQYJKoZIhvcNAQEL
+BQAwHDEaMBgGA1UEAwwRY2xhc3NpY2FsLXRscy1sYWIwHhcNMjYwNjEwMDYwNTM3
+WhcNMjcwNjEwMDYwNTM3WjAcMRowGAYDVQQDDBFjbGFzc2ljYWwtdGxzLWxhYjCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMMsG/xLljxoZ+A394VOjFW7
+Hko5D8GF9YSbPO9bBv4aQ/n2nFk4f/Gu0KtAw/OWRRXCpQVUpiYWSVzt90KQap9D
+gG9q2Ew26/Uun/5aBsBBPU84FM8196kJA+GWb00iR2aWWTr5sVXFW2lZlFRPeEPm
+zEXIr9oX3OyxgCNWruE+6UOWvTrw2NSz/IzNEluc4mJIToVgQV87yw13YugQ2CSg
+NZeDupAZVVS2SHAaGjEE69+ZhoPHZSZzSc0yCrhQQwPtStRbNbrFCc769dm7yATb
+3n3o5QoAyxp/b/wtOfqb2FYkpbJs9oiptCwWz+7NOilrrmel3WBAfY4Y/j46ySuD
+30Vfk+isiIJJ/pW1v0TTblj2+v5r+4ph0tF1UavnG22o/HolyXDAS/8Fx1mWNGe4
+gY8KtWFSlmfVb1Iimz4H46+VvzbH6oQ8GQ0bQsr62XUFRy/Fr9GRUynryBAgIWJu
+FthQFRdMW8bw7iipIrKxk+aB1QW5LMwOKtoamPUjeWAgEoU9+gjBD+3pEGbEtynG
+1V1yen8jkyk8nb4AC3obVCJBJPEeg0CHRD0vKqUIyV73LyF/beHvGVnPtoFn/bwg
+yJwa3GXbSfodiQhVig2BF0FXThSBXWrgM2IMUhN/wEuSpGB5tMVGGapJE28o/9aY
+78k4tQjqE+lxKr3hdcDLAgMBAAGjUzBRMB0GA1UdDgQWBBRVzmbq7ojpxCZs56OE
+rLF21PcvEjAfBgNVHSMEGDAWgBRVzmbq7ojpxCZs56OErLF21PcvEjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBtWRsG8+NPha9BzHbq+CPlTvaz
+fJ2fsDLiDAoOTLX94aBs9zdhbz6OhslwShM5fSaU9jdMBK4ejCdJJC5ytQbS1it4
+gFPI7v47+SUhyZ30yJGvARYP8r7W5WBJI7YqINv5Rpz+4TFA+ztTD2MW7WQ8vc5g
+n01wBOI+oRpIw6VDh6qqiAM+z98xLQ8rZN05jJDnnU3EGIqd+SBqV5HIHMiWO2Z7
+RLZYLudVplCVPpAvnU75IiG7DwaMtDMwbYkgVaoERWsRLeubmD7MYYyEQWl8FoOz
+ksvnzBT3fwlaAdCjZam8Izn08PcyZ4D1LIjb3+aQoYEiz7wZkF3rR3ukVYCCtUJy
+8Jl5TPPfxOY4tZ6Y2kRDW04xCay0EDfUZJfGUYLfyhmeK9KVOXJ+QRcRd/YUgezs
+kTbSZX9t6/UXIjwD5ZA0XY1ayQ4eQ+GhpyIIORs6GVQcLu1iu2dSU02KtEpnV8Kp
+tEIyNJ7JvzGza+3B9W5Cj1ezZI8MDPBO0z/+u7tzlEanerpkyppCj1k5pfHK1nZg
+rAsLONv4xUVKCxT8KOPkmJL6ftfJa+Pzu+0s0EHVK8HcLOjD83MN8HAZH8xZ5a4M
+TSbGF/e+e4+P0yukwVGOI0VLzt3j/VFtmhV4e8+Dbk1mmYfq0OcSmuSaj29HAHqv
+FejX/zql46qxuGbj9A==
+-----END CERTIFICATE-----
+subject=CN=classical-tls-lab
+issuer=CN=classical-tls-lab
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 3209 bytes and written 1540 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 4096 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+Run 7: 20ms
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=classical-tls-lab
+   i:CN=classical-tls-lab
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jun 10 06:05:37 2026 GMT; NotAfter: Jun 10 06:05:37 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGTCCAwGgAwIBAgIUX8F30TWeou32BwIL73sN7r8oblIwDQYJKoZIhvcNAQEL
+BQAwHDEaMBgGA1UEAwwRY2xhc3NpY2FsLXRscy1sYWIwHhcNMjYwNjEwMDYwNTM3
+WhcNMjcwNjEwMDYwNTM3WjAcMRowGAYDVQQDDBFjbGFzc2ljYWwtdGxzLWxhYjCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMMsG/xLljxoZ+A394VOjFW7
+Hko5D8GF9YSbPO9bBv4aQ/n2nFk4f/Gu0KtAw/OWRRXCpQVUpiYWSVzt90KQap9D
+gG9q2Ew26/Uun/5aBsBBPU84FM8196kJA+GWb00iR2aWWTr5sVXFW2lZlFRPeEPm
+zEXIr9oX3OyxgCNWruE+6UOWvTrw2NSz/IzNEluc4mJIToVgQV87yw13YugQ2CSg
+NZeDupAZVVS2SHAaGjEE69+ZhoPHZSZzSc0yCrhQQwPtStRbNbrFCc769dm7yATb
+3n3o5QoAyxp/b/wtOfqb2FYkpbJs9oiptCwWz+7NOilrrmel3WBAfY4Y/j46ySuD
+30Vfk+isiIJJ/pW1v0TTblj2+v5r+4ph0tF1UavnG22o/HolyXDAS/8Fx1mWNGe4
+gY8KtWFSlmfVb1Iimz4H46+VvzbH6oQ8GQ0bQsr62XUFRy/Fr9GRUynryBAgIWJu
+FthQFRdMW8bw7iipIrKxk+aB1QW5LMwOKtoamPUjeWAgEoU9+gjBD+3pEGbEtynG
+1V1yen8jkyk8nb4AC3obVCJBJPEeg0CHRD0vKqUIyV73LyF/beHvGVnPtoFn/bwg
+yJwa3GXbSfodiQhVig2BF0FXThSBXWrgM2IMUhN/wEuSpGB5tMVGGapJE28o/9aY
+78k4tQjqE+lxKr3hdcDLAgMBAAGjUzBRMB0GA1UdDgQWBBRVzmbq7ojpxCZs56OE
+rLF21PcvEjAfBgNVHSMEGDAWgBRVzmbq7ojpxCZs56OErLF21PcvEjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBtWRsG8+NPha9BzHbq+CPlTvaz
+fJ2fsDLiDAoOTLX94aBs9zdhbz6OhslwShM5fSaU9jdMBK4ejCdJJC5ytQbS1it4
+gFPI7v47+SUhyZ30yJGvARYP8r7W5WBJI7YqINv5Rpz+4TFA+ztTD2MW7WQ8vc5g
+n01wBOI+oRpIw6VDh6qqiAM+z98xLQ8rZN05jJDnnU3EGIqd+SBqV5HIHMiWO2Z7
+RLZYLudVplCVPpAvnU75IiG7DwaMtDMwbYkgVaoERWsRLeubmD7MYYyEQWl8FoOz
+ksvnzBT3fwlaAdCjZam8Izn08PcyZ4D1LIjb3+aQoYEiz7wZkF3rR3ukVYCCtUJy
+8Jl5TPPfxOY4tZ6Y2kRDW04xCay0EDfUZJfGUYLfyhmeK9KVOXJ+QRcRd/YUgezs
+kTbSZX9t6/UXIjwD5ZA0XY1ayQ4eQ+GhpyIIORs6GVQcLu1iu2dSU02KtEpnV8Kp
+tEIyNJ7JvzGza+3B9W5Cj1ezZI8MDPBO0z/+u7tzlEanerpkyppCj1k5pfHK1nZg
+rAsLONv4xUVKCxT8KOPkmJL6ftfJa+Pzu+0s0EHVK8HcLOjD83MN8HAZH8xZ5a4M
+TSbGF/e+e4+P0yukwVGOI0VLzt3j/VFtmhV4e8+Dbk1mmYfq0OcSmuSaj29HAHqv
+FejX/zql46qxuGbj9A==
+-----END CERTIFICATE-----
+subject=CN=classical-tls-lab
+issuer=CN=classical-tls-lab
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 3209 bytes and written 1540 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 4096 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+Run 8: 19ms
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=classical-tls-lab
+   i:CN=classical-tls-lab
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jun 10 06:05:37 2026 GMT; NotAfter: Jun 10 06:05:37 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGTCCAwGgAwIBAgIUX8F30TWeou32BwIL73sN7r8oblIwDQYJKoZIhvcNAQEL
+BQAwHDEaMBgGA1UEAwwRY2xhc3NpY2FsLXRscy1sYWIwHhcNMjYwNjEwMDYwNTM3
+WhcNMjcwNjEwMDYwNTM3WjAcMRowGAYDVQQDDBFjbGFzc2ljYWwtdGxzLWxhYjCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMMsG/xLljxoZ+A394VOjFW7
+Hko5D8GF9YSbPO9bBv4aQ/n2nFk4f/Gu0KtAw/OWRRXCpQVUpiYWSVzt90KQap9D
+gG9q2Ew26/Uun/5aBsBBPU84FM8196kJA+GWb00iR2aWWTr5sVXFW2lZlFRPeEPm
+zEXIr9oX3OyxgCNWruE+6UOWvTrw2NSz/IzNEluc4mJIToVgQV87yw13YugQ2CSg
+NZeDupAZVVS2SHAaGjEE69+ZhoPHZSZzSc0yCrhQQwPtStRbNbrFCc769dm7yATb
+3n3o5QoAyxp/b/wtOfqb2FYkpbJs9oiptCwWz+7NOilrrmel3WBAfY4Y/j46ySuD
+30Vfk+isiIJJ/pW1v0TTblj2+v5r+4ph0tF1UavnG22o/HolyXDAS/8Fx1mWNGe4
+gY8KtWFSlmfVb1Iimz4H46+VvzbH6oQ8GQ0bQsr62XUFRy/Fr9GRUynryBAgIWJu
+FthQFRdMW8bw7iipIrKxk+aB1QW5LMwOKtoamPUjeWAgEoU9+gjBD+3pEGbEtynG
+1V1yen8jkyk8nb4AC3obVCJBJPEeg0CHRD0vKqUIyV73LyF/beHvGVnPtoFn/bwg
+yJwa3GXbSfodiQhVig2BF0FXThSBXWrgM2IMUhN/wEuSpGB5tMVGGapJE28o/9aY
+78k4tQjqE+lxKr3hdcDLAgMBAAGjUzBRMB0GA1UdDgQWBBRVzmbq7ojpxCZs56OE
+rLF21PcvEjAfBgNVHSMEGDAWgBRVzmbq7ojpxCZs56OErLF21PcvEjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBtWRsG8+NPha9BzHbq+CPlTvaz
+fJ2fsDLiDAoOTLX94aBs9zdhbz6OhslwShM5fSaU9jdMBK4ejCdJJC5ytQbS1it4
+gFPI7v47+SUhyZ30yJGvARYP8r7W5WBJI7YqINv5Rpz+4TFA+ztTD2MW7WQ8vc5g
+n01wBOI+oRpIw6VDh6qqiAM+z98xLQ8rZN05jJDnnU3EGIqd+SBqV5HIHMiWO2Z7
+RLZYLudVplCVPpAvnU75IiG7DwaMtDMwbYkgVaoERWsRLeubmD7MYYyEQWl8FoOz
+ksvnzBT3fwlaAdCjZam8Izn08PcyZ4D1LIjb3+aQoYEiz7wZkF3rR3ukVYCCtUJy
+8Jl5TPPfxOY4tZ6Y2kRDW04xCay0EDfUZJfGUYLfyhmeK9KVOXJ+QRcRd/YUgezs
+kTbSZX9t6/UXIjwD5ZA0XY1ayQ4eQ+GhpyIIORs6GVQcLu1iu2dSU02KtEpnV8Kp
+tEIyNJ7JvzGza+3B9W5Cj1ezZI8MDPBO0z/+u7tzlEanerpkyppCj1k5pfHK1nZg
+rAsLONv4xUVKCxT8KOPkmJL6ftfJa+Pzu+0s0EHVK8HcLOjD83MN8HAZH8xZ5a4M
+TSbGF/e+e4+P0yukwVGOI0VLzt3j/VFtmhV4e8+Dbk1mmYfq0OcSmuSaj29HAHqv
+FejX/zql46qxuGbj9A==
+-----END CERTIFICATE-----
+subject=CN=classical-tls-lab
+issuer=CN=classical-tls-lab
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 3209 bytes and written 1540 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 4096 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+Run 9: 21ms
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=classical-tls-lab
+   i:CN=classical-tls-lab
+   a:PKEY: RSA, 4096 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jun 10 06:05:37 2026 GMT; NotAfter: Jun 10 06:05:37 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGTCCAwGgAwIBAgIUX8F30TWeou32BwIL73sN7r8oblIwDQYJKoZIhvcNAQEL
+BQAwHDEaMBgGA1UEAwwRY2xhc3NpY2FsLXRscy1sYWIwHhcNMjYwNjEwMDYwNTM3
+WhcNMjcwNjEwMDYwNTM3WjAcMRowGAYDVQQDDBFjbGFzc2ljYWwtdGxzLWxhYjCC
+AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMMsG/xLljxoZ+A394VOjFW7
+Hko5D8GF9YSbPO9bBv4aQ/n2nFk4f/Gu0KtAw/OWRRXCpQVUpiYWSVzt90KQap9D
+gG9q2Ew26/Uun/5aBsBBPU84FM8196kJA+GWb00iR2aWWTr5sVXFW2lZlFRPeEPm
+zEXIr9oX3OyxgCNWruE+6UOWvTrw2NSz/IzNEluc4mJIToVgQV87yw13YugQ2CSg
+NZeDupAZVVS2SHAaGjEE69+ZhoPHZSZzSc0yCrhQQwPtStRbNbrFCc769dm7yATb
+3n3o5QoAyxp/b/wtOfqb2FYkpbJs9oiptCwWz+7NOilrrmel3WBAfY4Y/j46ySuD
+30Vfk+isiIJJ/pW1v0TTblj2+v5r+4ph0tF1UavnG22o/HolyXDAS/8Fx1mWNGe4
+gY8KtWFSlmfVb1Iimz4H46+VvzbH6oQ8GQ0bQsr62XUFRy/Fr9GRUynryBAgIWJu
+FthQFRdMW8bw7iipIrKxk+aB1QW5LMwOKtoamPUjeWAgEoU9+gjBD+3pEGbEtynG
+1V1yen8jkyk8nb4AC3obVCJBJPEeg0CHRD0vKqUIyV73LyF/beHvGVnPtoFn/bwg
+yJwa3GXbSfodiQhVig2BF0FXThSBXWrgM2IMUhN/wEuSpGB5tMVGGapJE28o/9aY
+78k4tQjqE+lxKr3hdcDLAgMBAAGjUzBRMB0GA1UdDgQWBBRVzmbq7ojpxCZs56OE
+rLF21PcvEjAfBgNVHSMEGDAWgBRVzmbq7ojpxCZs56OErLF21PcvEjAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBtWRsG8+NPha9BzHbq+CPlTvaz
+fJ2fsDLiDAoOTLX94aBs9zdhbz6OhslwShM5fSaU9jdMBK4ejCdJJC5ytQbS1it4
+gFPI7v47+SUhyZ30yJGvARYP8r7W5WBJI7YqINv5Rpz+4TFA+ztTD2MW7WQ8vc5g
+n01wBOI+oRpIw6VDh6qqiAM+z98xLQ8rZN05jJDnnU3EGIqd+SBqV5HIHMiWO2Z7
+RLZYLudVplCVPpAvnU75IiG7DwaMtDMwbYkgVaoERWsRLeubmD7MYYyEQWl8FoOz
+ksvnzBT3fwlaAdCjZam8Izn08PcyZ4D1LIjb3+aQoYEiz7wZkF3rR3ukVYCCtUJy
+8Jl5TPPfxOY4tZ6Y2kRDW04xCay0EDfUZJfGUYLfyhmeK9KVOXJ+QRcRd/YUgezs
+kTbSZX9t6/UXIjwD5ZA0XY1ayQ4eQ+GhpyIIORs6GVQcLu1iu2dSU02KtEpnV8Kp
+tEIyNJ7JvzGza+3B9W5Cj1ezZI8MDPBO0z/+u7tzlEanerpkyppCj1k5pfHK1nZg
+rAsLONv4xUVKCxT8KOPkmJL6ftfJa+Pzu+0s0EHVK8HcLOjD83MN8HAZH8xZ5a4M
+TSbGF/e+e4+P0yukwVGOI0VLzt3j/VFtmhV4e8+Dbk1mmYfq0OcSmuSaj29HAHqv
+FejX/zql46qxuGbj9A==
+-----END CERTIFICATE-----
+subject=CN=classical-tls-lab
+issuer=CN=classical-tls-lab
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 3209 bytes and written 1540 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 4096 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+Run 10: 22ms

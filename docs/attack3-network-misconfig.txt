@@ -1,0 +1,30 @@
+Connecting to 192.168.56.101
+Can't use SSL_get_servername
+depth=0 CN=expired-pqc-lab
+verify error:num=18:self-signed certificate
+4037A925357F0000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:../ssl/statem/statem_clnt.c:2124:
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=expired-pqc-lab
+   i:CN=expired-pqc-lab
+   a:PKEY: ML-DSA-65, 15616 (bit); sigalg: ML-DSA-65
+   v:NotBefore: Jan  1 00:00:00 2023 GMT; NotAfter: Jan  2 00:00:00 2023 GMT
+---
+no peer certificate available
+---
+No client certificate CA names sent
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 6756 bytes and written 1467 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
