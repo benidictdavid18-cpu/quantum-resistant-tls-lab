@@ -1,0 +1,38 @@
+{
+  "elastic_rule": {
+    "rule": {
+      "name": "PQC Handshake Latency Anomaly",
+      "description": "Detects abnormal TLS handshake latency indicating PQC downgrade or timing attack",
+      "severity": "high",
+      "risk_score": 73,
+      "type": "threshold",
+      "language": "kuery",
+      "query": "tls.version:\"TLSv1.3\" AND destination.port:(4433 OR 4434) AND event.duration > 20000000",
+      "threshold": {
+        "field": "destination.port",
+        "value": 5
+      },
+      "tags": [
+        "PQC",
+        "TLS",
+        "Quantum",
+        "NIST-FIPS-203"
+      ],
+      "references": [
+        "https://csrc.nist.gov/publications/detail/fips/203/final",
+        "https://datatracker.ietf.org/doc/draft-ietf-tls-hybrid-design"
+      ],
+      "mitre_attack": [
+        "T1040",
+        "T1557"
+      ]
+    }
+  },
+  "simulation_results": {
+    "baseline_ms": 17.72,
+    "pqc_avg_ms": 26.13,
+    "threshold_ms": 23.04,
+    "overhead_percent": 47.5,
+    "alert_triggered": true
+  }
+}
