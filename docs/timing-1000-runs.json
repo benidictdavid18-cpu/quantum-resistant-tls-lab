@@ -1,0 +1,25 @@
+{
+  "Classical_X25519": {
+    "mean": 19.3635,
+    "std": 3.2191,
+    "min": 14.722,
+    "max": 62.52,
+    "median": 18.6828,
+    "p95": 25.0111,
+    "p99": 28.6392,
+    "samples": 1000
+  },
+  "Hybrid_X25519_MLKEM768": {
+    "mean": 30.7446,
+    "std": 2.6825,
+    "min": 26.7881,
+    "max": 60.5441,
+    "median": 30.0564,
+    "p95": 35.2855,
+    "p99": 38.5781,
+    "samples": 1000
+  },
+  "overhead_percent": 58.78,
+  "sample_size": 1000,
+  "statistical_note": "n=1000, sufficient for 95% confidence interval"
+}
