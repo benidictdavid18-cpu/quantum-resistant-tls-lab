@@ -1,0 +1,20 @@
+{
+  "model": "RandomForest + IsolationForest",
+  "dataset": "CIC-PQC_OAV v1",
+  "total_sessions": 40010,
+  "normal": 35000,
+  "anomalous": 5010,
+  "rf_roc_auc": 0.9847,
+  "top_features": [
+    "e6b_flow_duration_ms",
+    "e2c_total_bytes",
+    "e9_conn_outcome_Success",
+    "e2_server_record_len",
+    "e2_client_record_len",
+    "e6_time_char",
+    "e2_client_size",
+    "e1_alg_suite_mlkem768",
+    "e1_alg_suite_mlkem1024",
+    "e1_alg_suite_x25519"
+  ]
+}
