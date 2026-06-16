@@ -1,0 +1,92 @@
+[
+  {
+    "feature": "e6b_flow_duration_ms",
+    "importance": 0.233,
+    "percentage": 23.3,
+    "cryptographic_justification": "PQC key encapsulation adds measurable latency. ML-KEM-768 key generation and encapsulation takes longer than X25519 elliptic curve operations. Anomalous duration indicates algorithm mismatch or downgrade."
+  },
+  {
+    "feature": "e2c_total_bytes",
+    "importance": 0.1907,
+    "percentage": 19.1,
+    "cryptographic_justification": "ML-KEM-768 public key is 1184 bytes vs X25519 32 bytes. PQC handshakes transfer significantly more data. Deviation from expected size indicates misconfiguration or stripping attack."
+  },
+  {
+    "feature": "e9_conn_outcome_Success",
+    "importance": 0.0862,
+    "percentage": 8.6,
+    "cryptographic_justification": "Failed connections on PQC port indicate active attacks. Downgrade attempts and misconfigured clients produce connection failures not seen in normal PQC traffic."
+  },
+  {
+    "feature": "e2_server_record_len",
+    "importance": 0.0806,
+    "percentage": 8.1,
+    "cryptographic_justification": "ML-DSA-65 certificates are 7456 bytes vs RSA-4096 1830 bytes. Server record length directly reflects certificate algorithm. Classical-sized records on PQC port indicate downgrade."
+  },
+  {
+    "feature": "e2_client_record_len",
+    "importance": 0.0706,
+    "percentage": 7.1,
+    "cryptographic_justification": "ClientHello with PQC key share is 1400+ bytes. Classical ClientHello is under 400 bytes. Small client records on PQC port indicate missing ML-KEM key share \u2014 downgrade indicator."
+  },
+  {
+    "feature": "e6_time_char",
+    "importance": 0.0699,
+    "percentage": 7.0,
+    "cryptographic_justification": "Time characteristics of PQC handshake follow predictable pattern. Deviations indicate timing attacks or side-channel probing."
+  },
+  {
+    "feature": "e2_client_size",
+    "importance": 0.0627,
+    "percentage": 6.3,
+    "cryptographic_justification": "ML-KEM-768 key share in ClientHello adds 1088 bytes. Absence of this size increase on PQC port is direct evidence of key share stripping."
+  },
+  {
+    "feature": "e1_alg_suite_mlkem768",
+    "importance": 0.0586,
+    "percentage": 5.9,
+    "cryptographic_justification": "Algorithm suite indicator. Absence of ML-KEM-768 on hybrid port directly identifies downgrade or misconfiguration."
+  },
+  {
+    "feature": "e1_alg_suite_mlkem1024",
+    "importance": 0.035,
+    "percentage": 3.5,
+    "cryptographic_justification": "Higher security PQC mode. Presence on wrong port indicates misconfiguration."
+  },
+  {
+    "feature": "e1_alg_suite_x25519",
+    "importance": 0.033,
+    "percentage": 3.3,
+    "cryptographic_justification": "Classical algorithm indicator. Presence alone on hybrid port indicates successful downgrade attack."
+  },
+  {
+    "feature": "e9_conn_outcome_Failure",
+    "importance": 0.0313,
+    "percentage": 3.1,
+    "cryptographic_justification": "Statistical correlation with anomaly class in CIC-PQC_OAV v1 dataset."
+  },
+  {
+    "feature": "e9_conn_outcome_Incomplete",
+    "importance": 0.0183,
+    "percentage": 1.8,
+    "cryptographic_justification": "Statistical correlation with anomaly class in CIC-PQC_OAV v1 dataset."
+  },
+  {
+    "feature": "e5_entropy_c",
+    "importance": 0.0144,
+    "percentage": 1.4,
+    "cryptographic_justification": "Statistical correlation with anomaly class in CIC-PQC_OAV v1 dataset."
+  },
+  {
+    "feature": "e1_alg_suite_Unknown(0x11ec)",
+    "importance": 0.0042,
+    "percentage": 0.4,
+    "cryptographic_justification": "Statistical correlation with anomaly class in CIC-PQC_OAV v1 dataset."
+  },
+  {
+    "feature": "e1b_ciphersuite_60",
+    "importance": 0.0039,
+    "percentage": 0.4,
+    "cryptographic_justification": "Statistical correlation with anomaly class in CIC-PQC_OAV v1 dataset."
+  }
+]
