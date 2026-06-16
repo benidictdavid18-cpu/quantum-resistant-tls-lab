@@ -1,0 +1,10 @@
+{
+  "cv_folds": 5,
+  "cv_roc_auc_mean": 0.9815,
+  "cv_roc_auc_std": 0.0018,
+  "cv_f1_mean": 0.8451,
+  "average_precision": 0.9389,
+  "optimal_threshold": 0.6154,
+  "optimal_precision": 1.0,
+  "optimal_recall": 0.8283
+}
