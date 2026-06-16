@@ -1,0 +1,6 @@
+alert tcp any any -> any 4434 (msg:"PQC-DOWNGRADE Small ClientHello on PQC port possible downgrade"; flow:established,to_server; dsize:<400; content:"|16 03 01|"; offset:0; depth:3; sid:2000001; rev:2;)
+alert tcp any any -> any 4434 (msg:"PQC-HANDSHAKE-FAIL TLS alert record on PQC hybrid port"; flow:established,to_server; content:"|15 03 03|"; offset:0; depth:3; sid:2000002; rev:2;)
+alert tcp any any -> any 4433 (msg:"PQC-BYPASS Classical TLS port used instead of PQC"; flow:established,to_server; content:"|16 03 01|"; offset:0; depth:3; threshold:type limit, track by_src, count 3, seconds 60; sid:2000003; rev:2;)
+alert tcp any any -> any 4434 (msg:"PQC-HNDL Repeated PQC connections from same source"; flow:established,to_server; content:"|16 03 01|"; offset:0; depth:3; threshold:type threshold, track by_src, count 5, seconds 10; sid:2000004; rev:2;)
+alert tcp any any -> any 4434 (msg:"PQC-TIMING High frequency SYN packets timing attack"; flow:stateless; flags:S; threshold:type threshold, track by_src, count 20, seconds 5; sid:2000005; rev:2;)
+alert tcp any any -> any 4435 (msg:"PQC-EXPIRED Connection to expired PQC certificate port"; flow:established,to_server; content:"|16 03 01|"; offset:0; depth:3; sid:2000006; rev:2;)
