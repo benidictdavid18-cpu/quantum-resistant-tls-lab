@@ -1,0 +1,51 @@
+{
+  "false_negatives": [
+    {
+      "session_id": 1086,
+      "explanation": "e6b_flow_duration_ms closer to normal pattern; e2c_total_bytes closer to normal pattern; e2_server_record_len closer to normal pattern"
+    },
+    {
+      "session_id": 2165,
+      "explanation": "e6b_flow_duration_ms closer to normal pattern; e2c_total_bytes closer to normal pattern; e2_server_record_len closer to normal pattern"
+    },
+    {
+      "session_id": 1193,
+      "explanation": "e6b_flow_duration_ms closer to normal pattern; e2c_total_bytes closer to normal pattern; e2_server_record_len closer to normal pattern"
+    },
+    {
+      "session_id": 1463,
+      "explanation": "e6b_flow_duration_ms closer to normal pattern; e2c_total_bytes closer to normal pattern; e2_server_record_len closer to normal pattern"
+    },
+    {
+      "session_id": 1268,
+      "explanation": "e6b_flow_duration_ms closer to normal pattern; e2c_total_bytes closer to normal pattern; e2_server_record_len closer to normal pattern"
+    }
+  ],
+  "false_positives": [
+    {
+      "session_id": 29643,
+      "explanation": "e6b_flow_duration_ms closer to normal pattern; e2c_total_bytes closer to normal pattern; e2_server_record_len closer to normal pattern"
+    },
+    {
+      "session_id": 28519,
+      "explanation": "e6b_flow_duration_ms closer to normal pattern; e2c_total_bytes closer to normal pattern; e2_server_record_len closer to normal pattern"
+    },
+    {
+      "session_id": 28767,
+      "explanation": "e6b_flow_duration_ms closer to normal pattern; e2c_total_bytes closer to normal pattern; e2_server_record_len closer to normal pattern"
+    },
+    {
+      "session_id": 38692,
+      "explanation": "e6b_flow_duration_ms closer to normal pattern; e2c_total_bytes closer to normal pattern; e2_server_record_len closer to normal pattern"
+    },
+    {
+      "session_id": 38738,
+      "explanation": "e6b_flow_duration_ms closer to normal pattern; e2c_total_bytes closer to normal pattern; e2_server_record_len closer to normal pattern"
+    }
+  ],
+  "summary": {
+    "total_false_negatives": 56,
+    "total_false_positives": 891,
+    "interpretation": "False negatives occur when anomalous sessions exhibit feature values overlapping with normal traffic distribution, particularly in flow duration and byte count - the model's top predictive features. This indicates sophisticated attacks that closely mimic normal timing patterns remain the hardest to detect."
+  }
+}
