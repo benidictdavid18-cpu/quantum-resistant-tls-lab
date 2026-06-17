@@ -1,0 +1,7 @@
+{
+  "mlkem768_mean": 33.2317,
+  "mlkem1024_mean": 30.9285,
+  "p_value": 2.11895842524984e-15,
+  "distinguishable_via_timing": true,
+  "security_implication": "Attacker observing only encrypted timing can identify PQC security level"
+}
