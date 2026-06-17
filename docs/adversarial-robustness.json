@@ -1,0 +1,7 @@
+{
+  "original_detection_rate": 94.41,
+  "perturbed_detection_rate": 98.3,
+  "evasion_rate": 1.7,
+  "attack_method": "50% feature shift on top-2 importance features toward normal class mean",
+  "robustness_verdict": "Model demonstrates reasonable robustness to simple evasion"
+}
